@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('unity.jpg'); /* Path to your background image */
+    background-size: cover; /* Adjust the background image to cover the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: down; /* Center the background image */
+}
+
+header {
+    background: #333; /* Add a semi-transparent background to the header */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333; /* Add a semi-transparent background to the footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
